@@ -1,6 +1,6 @@
 # dli_emotions
 
-NVIDIA IoT [Deep Learning Institute](https://www.nvidia.com/en-us/deep-learning-ai/education/) thumbs image classifier at the edge (IoT) project for Jetson Nano. 
+NVIDIA IoT [Deep Learning Institute](https://www.nvidia.com/en-us/deep-learning-ai/education/) emotions image classifier at the edge (IoT) project for Jetson Nano. 
 
 This project is meant to be run at the edge on an NVIDIA Jetson Nano (or similar ARM IoT architecture computer).  
 
@@ -20,7 +20,7 @@ Contains 200 images times 4 classes (total images = 800) taken and used for trai
 Contains different model iterations and are named after the total training images and epochs. The best performing model is the *200dpx4_35ep.pth* model which was trained with 200 images per class and for a total of 35 epochs.
 
 ### [notebooks](notebooks)
-Contains the Jupyter notebook used to interactively train and evaluate a thumbs position (up or down) model using deep learning and PyTorch.
+Contains the Jupyter notebook used to interactively train and evaluate an emotion prediction (up or down) model using deep learning and PyTorch.
 
 ### [src](src)
 Standard src scripts and utilities plus a folder structure generator script.
@@ -29,4 +29,4 @@ Standard src scripts and utilities plus a folder structure generator script.
 Use the interactive notebook from the notebooks folder and train your own model or load one already made from the models folder and evaluate how effective it is using your camera.
 
 ## License
-[MIT License](https://github.com/socd06/dli_thumbs/blob/master/LICENSE)
+[MIT License](https://github.com/socd06/dli_emotions/blob/master/LICENSE)
